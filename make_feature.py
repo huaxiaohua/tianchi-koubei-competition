@@ -10,7 +10,6 @@ def preFeature(): #构造训练集 测试集 三周的窗口
 	fr = open('dataset/shopSellPerNum','r')
 	shopSellPerNum = pickle.load(fr)
 	start_day = datetime(2016,8,2)
-	#print start_day.strftime('%Y-%m-%d')
 	end_day = datetime(2016,10,31)
 
 	shopSellPerNumPerDay = shopSellPerNum[shopSellPerNum['time_stamp'] == start_day]
