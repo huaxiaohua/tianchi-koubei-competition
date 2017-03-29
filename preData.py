@@ -195,7 +195,7 @@ def judgeOutLier(week1,week2,week3):
 
 
 if __name__ == '__main__':
-	pre()
+	#pre()
 	#completeData()
 	
 
