@@ -20,7 +20,7 @@ from sklearn.grid_search import ParameterGrid
 from sklearn.model_selection import fit_grid_point
 
 
-from make_feature import preFeature	   #三周的滑动窗口
+from make_feature import preFeature	  
 from preShop_View import addShopView, preShopInfo
 
 	
