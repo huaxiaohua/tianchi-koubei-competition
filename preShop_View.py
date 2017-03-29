@@ -18,7 +18,6 @@ def preUserView():
 	#shopView.to_csv('shopView.csv', header = True, index = None)
 	
 	start_day = datetime(2016,8,2)
-	#print start_day.strftime('%Y-%m-%d')
 	end_day = datetime(2016,10,31)
 
 	shopViewPerDay = shopView[shopView['time_stamp'] == start_day]
